@@ -1,0 +1,55 @@
+.bdybpc{
+background-image:url("background.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.cutting{
+width:50%;
+margin:0 auto;
+margin-top:5%;
+}
+.clrh1{
+color:#966F33;
+}
+.bld{
+font-weight:bold;
+}
+.Lasts{
+height:50px;
+white-space:pre;
+}
+.btn{
+height:30px;
+width:70px;
+font-weight:bold;
+border:2px solid black;
+border-radius:5px;
+}
+sup{
+color:red;
+}
+.txttt{
+width:300px;
+border-radius:5px 5px 5px 5px;
+}
+#change{
+width:240px;
+}
+input[type="text"]:focus{
+color:blue;
+background-color:pink;
+}
+input[type="checkbox"]:checked{
+box-shadow:0 0 0 3px gold;
+}
+
+
+input[type="radio"]:checked+label{
+color:gold;
+}
+input:enabled{
+background-color:green;
+}
+input:disabled{
+background-color:red;
+}

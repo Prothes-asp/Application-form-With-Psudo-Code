@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>New Application Form</title>
+<link  rel="stylesheet"  type="text/css"  href="style.css">
+</head>
+<body class="bdybpc">
+<div>
+<center ><h1 class="clrh1">STUDENT REGISTRATION FORM</h1></center>
+<form>
+<fieldset class="cutting" >
+<legend class="bld">Application Form:</legend>
+<table>
+   <tr>
+          <td  class="bld"><label>Name:</label><sup>*</sup></td>
+          <td><input type="text" placeholder="Enter Your Name" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Father's Name:</label><sup>*</sup></td>
+          <td><input type="text" placeholder="Enter Your Father's Name" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Mother's Name:</label><sup>*</sup></td>
+          <td><input type="text" placeholder="Enter Your Mother's Name" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Date Of Birth:</label><sup>*</sup></td>
+          <td><input type="date" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Your E-mail:</label><sup>*</sup></td>
+          <td><input type="email" placeholder="Enter Your E-mail" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Choose Color:</label></td>
+          <td><input type="color" class="txttt" disabled></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Gender:</label><sup>*</sup></td>
+          <td><input type="radio" value="Male" name="gender"><label>Male</label> 
+                    <input type="radio" value="Female" name="gender"><label>Female</label>
+                   <input type="radio" value="Custom" name="gender"> <label>Custom</label>
+          </td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Education Qualification:</label><sup>*</sup></td>
+          <td>
+                    SSC<input type="checkbox" value="SSC" name="education qualification">
+                    HSC<input type="checkbox" value="HSC" name="education qualification">
+                    BSC<input type="checkbox" value="BSC" name="education qualification">
+                    MSC<input type="checkbox" value="MSC" name="education qualification">
+          </td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Your Country:</label><sup>*</sup></td>
+          <td>
+            <select class="txttt">
+             <option class="bld">Select state</option>
+             <option value="Bangladesh">Bangladesh</option>
+             <option value="India">India</option>
+             <option value="Australia">Australia</option>
+             <option value="Japan">Japan</option>
+             <option value="China" disabled>China</option>
+             <option value="America">America</option>
+             <option value="Canada">Canada</option>
+            </select>
+          </td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Course Details:</label><sup>*</sup></td>
+          <td>
+                <select class="txttt">
+                         <option class="bld">Select state</option>
+                         <optgroup label="Web Desing">
+                                 <option value="HTML">HTML</option>
+                                 <option value="CSS">CSS</option>
+                                 <option value="JS">JS</option>
+                                 <option value="PHP">PHP</option>
+                                 <option value="BOOTSTRAP" disabled>BOOTSTRAP</option>
+                         </optgroup>
+                         <optgroup label="Graphics Desing">
+                                 <option value="Logo Desing">Logo Desing</option>
+                                 <option value="Photoshop">Photoshop</option>
+                                 <option value="Pics Art">Pics Art</option>
+                                 <option value="Album Desing">Album Desing</option>
+                         </optgroup>
+                </select>
+          </td>
+   </tr>
+   <tr>
+             <td class="bld"><label>Select Discrict:</label><sup>*<sup></td>
+             <td>
+                       <input type="text" list="Asp" class="txttt">
+                        <datalist id="Asp">
+                                            <option value="Barishal">Barishal</option>
+                                            <option value="Rajshahi">Rajshahi</option>
+                                            <option value="Khulna">Khulna</option>
+                                            <option value="Dhaka">Dhaka</option>
+                                            <option value="Rangpur">Rangpur</option>
+                                            <option value="Vola">Vola</option>
+                                            <option value="Gopalgonj">Gopalgonj</option>
+                        </datalist>
+             </td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Phone No:</label><sup>*</sup></td>
+          <td>
+                 <select>
+                            <option value="+880">+880</option>
+                            <option value="+91">+91</option>
+                            <option value="+06">+06</option>
+                            <option value="+56">+56</option>
+                            <option value="+89">+89</option>
+                            <option value="+43">+43</option>
+                            <option value="+22">+22</option>
+                 </select>
+                 <input type="number" placeholder="Enter Your Phone Numbr"  class="txttt" id="change">
+          </td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Select Range:</label></td>
+          <td><input type="range" class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Upload Your Picture:(Max.500KB)</label><sup>*</sup></td>
+          <td><input type="file">Only jpeg file</td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Set Password:</label><sup>*</sup></td>
+          <td><input type="password" placeholder="Set The Password"  class="txttt"></td>
+   </tr>
+   <tr>
+          <td class="bld"><label>Re-Type-Password:</label><sup>*</sup></td>
+          <td><input type="password" placeholder="Re-Type-Password" class="txttt"></td>
+   </tr>
+   <tr class="Lasts">
+          <td></td>
+          <td><input type="submit" value="Submit" class="btn">      <input type="reset" value="Reset" class="btn"></td>
+   </tr>
+</table>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
